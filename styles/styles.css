@@ -15,12 +15,13 @@ body {
     display: flex;
     justify-content: center;
     margin: 10px;
+
 }
 
 h1 {
     background-color: rgba(235, 184, 122, 0.927);
     display: inline-block;
-    width: 90%;
+    width: 96%;
     padding: 20px;
     text-align: center;
     border: solid 5px black;
@@ -72,7 +73,7 @@ li a {
 }
 
 footer {
-    width: 100%;
+    width: 99%;
     background-color: rgba(235, 184, 122, 0.648);
     display: flex;
     flex-direction: column;
@@ -101,7 +102,7 @@ h2 {
 h3 {
     text-align: center;
     background-color: rgb(235, 184, 122);
-    border: solid 4px black;
+    border: solid 3px black;
 
     font-size: 24px;
 }
@@ -177,14 +178,14 @@ h5 {
 
 .grid-footer1 {
     display: grid;
-    background-color: aqua;
+    background-color:rgba(142, 137, 130, 0.03);
     width: 100%;
 }
 
 .grid-footer2 {
     display: grid;
     grid-template-rows: 1px / 4px;
-    background-color: blue;
+    background-color: rgba(142, 137, 130, 0.03);
     width: 100%;
 }
 
