@@ -20,16 +20,15 @@ body {
 h1 {
     background-color: rgba(235, 184, 122, 0.927);
     display: inline-block;
-    width: 90%;
+    width: 100%;
     padding: 20px;
     text-align: center;
-    border: solid 5px black;
+    
 }
 
 nav {
     background-color: rgba(235, 184, 122, 0.907);
     text-align: center;
-    border: solid 5px black;
     padding: 10px;
     margin: 0px 5px 0px 5px;
 }
@@ -40,7 +39,7 @@ nav ul {
 
 nav ul li {
     list-style-type: none;
-    border: solid 3px black;
+   
 
 }
 
@@ -55,7 +54,7 @@ li a {
     display: inline-block;
     background-color: rgba(235, 184, 122, 0.679);
     width: 50%;
-    border: solid 5px black;
+    
     margin-top: 5px;
     display: flex;
     align-items: center;
@@ -65,7 +64,7 @@ li a {
     display: inline-block;
     background-color: rgba(235, 184, 122, 0.679);
     width: 50%;
-    border: solid 5px black;
+    
     margin-top: 5px;
     display: flex;
     align-items: center;
@@ -77,7 +76,7 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: solid 5px black;
+  
 }
 
 
@@ -117,19 +116,19 @@ h4 {
 }
 
 h5 {
-    text-align: right;
+    text-align: center;
 }
 
 .contenedorPadre {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 600px;
+    height: 105vh;
 }
 
 .contenedorHijo {
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 
 .hijo4 {
@@ -168,7 +167,7 @@ h5 {
 
 .grid-sobrenosotros {
     display: grid;
-    background-color: rgba(235, 184, 122, 0.532);
+    background-color: rgba(235, 184, 122, 0.445);
     height: 400px;
     width: 90%;
     padding: 10px;
@@ -177,14 +176,13 @@ h5 {
 
 .grid-footer1 {
     display: grid;
-    background-color: aqua;
-    width: 100%;
+    background-color: rgba(235, 184, 122, 0.321);
+    width: 100%s;
 }
-
-.grid-footer2 {
+.grid-footer2 ç{
     display: grid;
     grid-template-rows: 1px / 4px;
-    background-color: blue;
+    background-color: rgba(235, 184, 122, 0.323);
     width: 100%;
 }
 
@@ -200,8 +198,18 @@ h5 {
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "grid-entrenamiento grid-entrenamiento"
-                        "grid-sobrenosotros grid-sobrenosotros";
+                          "grid-sobrenosotros grid-sobrenosotros";
     column-gap: 10px;
     width: 90%;
     margin: 5px;
+}
+ 
+.musculacion {
+    display: flex;
+    justify-content: center;
+}
+
+.resistencia {
+    display: flex;
+    justify-content: center;
 }

@@ -8,57 +8,74 @@
     <title>Entrenamiento Mellis03</title>
     <!--Inserto CSS de forma externa-->
     <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+    <link="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-
+<!--Se agrega link y href de Bootstrap-->
 <body>
 
-    <div class="titulo">
-        <h1>Bienvenidos</h1>
+    <!--Se agrega animacion en h1-->
+    <!--Se agrga bootstrap, cambiando la clase del div para h1-->
+    <div class="container-fluid">
+         <h1 class="animate__animated animate__bounce">
+            Bienvenidos
+        </h1>
     </div>
-    <nav class="nav">
+    <!--Se agrega trabajo con botones-->
+    <nav>
         <ul class="nav-menu">
-            <li><a href="../index.html">Inicio</a></li>
+            <li class="btn btn-primary"><a href="../index.html">Inicio</a></li>
         </ul>
         <ul>
-            <li><a href="pages/Galeria.html">Imagenes</a></li>
+            <li class="btn btn-secondary"><a href="pages/Galeria.html">Imagenes</a></li>
         </ul>
         <ul>
-            <li><a href="pages/Clases_Horarios.html">Clases y Horarios</a></li>
+            <li class="btn btn-success"><a href="pages/Clases_Horarios.html">Clases y Horarios</a></li>
         </ul>
         <ul>
-            <li><a href="pages/NOsotros.html">Profesores</a></li>
+            <li class="btn btn-danger"><a href="pages/NOsotros.html">Profesores</a></li>
         </ul>
         <ul>
-            <li><a href="pages/Contactos.html">Contactos</a></li>
+            <li class="btn btn-info"><a href="pages/Contactos.html">Contactos</a></li>
         </ul>
 
     </nav>
-
+<!--Se agrega Bootstrap en dos titulos y en dos parrafos-->
     <main>
-        <section class="flex">
-            <article class="grid-0">
+        <section>
+            <div class="container-fluid">
+               <article class="grid-0">
                 <div class=" grid-entrenamiento">
                     <h2>Entrenamientos personalizados</h2>
-                    <p>Somos un pequeño instituto de entrenamiento personalizados en donde te podemos ayudar en tu vida,
+                    <div class="info col col-lg-9">
+                        <p class="lead">
+                            Somos un pequeño instituto de entrenamiento personalizados en donde te podemos ayudar en tu vida,
                         cuidar
                         tu vida, logras tus metas para que logres todo lo que tenes en mente.
-                        sus objetivos y metas que tienen propuesto.
-                    </p>
+                        sus objetivos y metas que tienen propuesto nosotros los prepramos.
+                        </p>
+                    </div>
                 </div>
                 <div class="grid-sobrenosotros">
                     <h3>Sobre Nosotros</h3>
-                    <p>Somos dos hermanos que les gusta mucho entrenar personalmente, tambien nos encanta entrenar con
+                    <div class="info col col-lg-9">
+                       <p class="lead">
+                        Somos dos hermanos que les gusta mucho entrenar personalmente, tambien nos encanta entrenar con
                         gente
                         que
                         no conocemos, ayudar a los demas con cada granito de arena y en lo mas importante ayudar a que
                         logren
                         sus objetivos y metas que tienen propuesto.
-                    </p>
+                       </p>
+                    </div>
                 </div>
             </article>
+            </div>
         </section>
     </main>
-    <section class="grid2">
+    <section>
         <footer class="footer">
             <div class="grid-footer1">
                 <h3>Comunicate con Nosotros</h3>
@@ -72,4 +89,15 @@
             </div>
         </footer>
     </section>
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
